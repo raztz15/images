@@ -1,0 +1,33 @@
+/* The Modal (background) */
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-image: linear-gradient(white, #585858);
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  width: 50%;
+  color: rgba(0, 0, 0, 0.7);
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.15);
+}
+
+span {
+  font-size: 18px;
+}
+
+span:hover {
+  font-weight: 800;
+  cursor: pointer;
+}
